@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Graduation, BookOpen, Award, UserSquare } from 'lucide-react';
+import { GraduationCap, BookOpen, Award, UserSquare } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <Graduation className="h-8 w-8 text-gold" />
+            <GraduationCap className="h-8 w-8 text-gold" />
             <h1 className="ml-2 text-xl font-bold">Student Management System</h1>
           </div>
           
